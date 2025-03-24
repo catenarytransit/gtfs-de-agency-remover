@@ -47,8 +47,8 @@ struct RawTrip {
 #[derive(Serialize, Deserialize)]
 struct RawStopTime {
     pub trip_id: String,
-    pub arrival_time: Option<u32>,
-    pub departure_time: Option<u32>,
+    pub arrival_time: Option<String>,
+    pub departure_time: Option<String>,
     pub stop_id: String,
     pub stop_sequence: u32,
     pub stop_headsign: Option<String>,
