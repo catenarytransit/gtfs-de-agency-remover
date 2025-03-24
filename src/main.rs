@@ -54,10 +54,6 @@ struct RawStopTime {
     pub stop_headsign: Option<String>,
     pub pickup_type: Option<u8>,
     pub drop_off_type: Option<u8>,
-    pub continuous_pickup: Option<u8>,
-    pub continuous_drop_off: Option<u8>,
-    pub timepoint: Option<u8>,
-    pub shape_dist_traveled: Option<f32>,
 }
 
 use std::env;
@@ -199,6 +195,8 @@ fn main() {
             } else {
                 writer.serialize(record).expect("Unable to write to file");
             }
+        } else {
+            eprintln!("Error reading record");
         }
     }
 
