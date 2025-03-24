@@ -1,5 +1,5 @@
 [package]
-name = "gtfs_de_agency_remover"
+name = "gtfs-de-agency-remover"
 version = "0.1.0"
 edition = "2024"
 

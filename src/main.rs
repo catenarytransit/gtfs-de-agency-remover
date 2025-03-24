@@ -132,6 +132,8 @@ fn main() {
         }
     }
 
+    println!("Fixing trips");
+
     let mut trip_ids_to_remove = BTreeSet::new();
 
     // read trips file
@@ -172,6 +174,8 @@ fn main() {
     writer.flush().expect("Unable to flush file");
 
     fs::rename(trips_new_path, trips_file_path).unwrap();
+
+    println!("Fixing stop_times");
 
     // read stop_times file and at the same time, write to new file
 
