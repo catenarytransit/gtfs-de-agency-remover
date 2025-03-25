@@ -94,6 +94,8 @@ fn main() {
         "SBB",
         "U-Bahn München",
         "Österreichische Bundesbahnen",
+        "Kölner VB",
+        "Bus München"
     ];
 
     //let route ids
