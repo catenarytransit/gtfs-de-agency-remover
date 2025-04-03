@@ -92,11 +92,16 @@ fn main() {
         "FlixBus-de",
         "FlixTrain-de",
         "SBB",
+        //f-münchner~verkehrsgesellschaft~mvg
         "U-Bahn München",
         "Österreichische Bundesbahnen",
         "Kölner VB",
+        //f-u281z9-mvv
         "Bus München",
-        "Straßenbahn München"
+        //f-münchner~verkehrsgesellschaft~mvg
+        "Straßenbahn München",
+        //covered in f-u0z-vgn
+        "VGN"
     ];
 
     //let route ids
