@@ -98,6 +98,7 @@ fn main() {
         "Kölner VB",
         //f-u281z9-mvv
         "Bus München",
+        "MVV-Regionalbus",
         //f-münchner~verkehrsgesellschaft~mvg
         "Straßenbahn München",
         //covered in f-u0z-vgn
